@@ -1,7 +1,8 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
 
-export const theme = createMuiTheme({
+export let theme = createMuiTheme({
+
   palette: {
     primary: blue,
     secondary: {
@@ -19,10 +20,22 @@ export const theme = createMuiTheme({
     },
   },
 
-
   typography: {
-    fontFamily: 'Jost, Sans-serif',
+    fontFamily: [
+      'Jost',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
   },
+
 
   props: {
     MuiButtonBase: {
@@ -35,3 +48,5 @@ export const theme = createMuiTheme({
     },
   },
 });
+
+theme = responsiveFontSizes(theme);
