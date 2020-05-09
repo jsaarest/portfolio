@@ -66,7 +66,7 @@ export default function Hero(props) {
         <Grid item lg={12}>
           <div className={classes.heroContent}>
             <Avatar className={classes.avatar} src={image}/>
-            <Typography component="h1" variant="h1" color="inherit" gutterBottom>
+            <Typography component="h1" variant="h1" color="inherit" gutterBottom style={{padding: '0vw 3vw'}}>
               {content.title}
             </Typography>
             <Typography variant="h5" color="textSecondary" paragraph style={{padding: '0vw 15vw'}}>

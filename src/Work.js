@@ -30,7 +30,6 @@ const useStyles = makeStyles((theme) => ({
     borderRadius:'12px',
     border: 'solid 1px' + `${blue[100]}`,
     marginTop: theme.spacing(2),
-    padding: theme.spacing(2),
   },
   textArea: {
     display: 'flex',
@@ -42,8 +41,8 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '12px'
   },
   avatar: {
-    width: '75px',
-    height: '75px',
+    height: '4rem',
+    width: '4rem',
     marginRight: theme.spacing(2)
   }
 

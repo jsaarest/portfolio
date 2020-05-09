@@ -43,7 +43,7 @@ export let theme = createMuiTheme({
           borderRadius: '6px',
           textTransform: 'capitalize',
           fontSize: '16px',
-          padding: '5px 25px'
+          //padding: '5px 25px'
         },
     },
   },
