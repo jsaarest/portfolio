@@ -13,11 +13,6 @@
   }
 }
 
-/* mouse over link */
-a:hover {
-  opacity: 80%;
-}
-
 .App-link {
   color: dodgerblue;
 }

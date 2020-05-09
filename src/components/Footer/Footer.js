@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     borderTop: `1px solid ${theme.palette.primary[100]}`,
   },
   container: {
+    marginLeft: theme.spacing(2),
     display: 'flex',
     justifyContent: 'space-between',
   },
@@ -40,12 +41,10 @@ export default function Footer(props) {
         <Container maxWidth="lg" className={classes.container}>
             <Typography variant="p" color="textSecondary">{content.description}</Typography>
           <div id="menu">
-
             <Link href="https://github.com/jsaarest" className={classes.toolbarLink}>
               <GitHubIcon color="primary" fontSize="small" style={{marginRight:'7px'}}/>
               Github
             </Link>
-
             <Link href="https://dribbble.com/jsaarest" className={classes.toolbarLink}>Dribbble</Link>
           </div>
         </Container>
