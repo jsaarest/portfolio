@@ -11,7 +11,7 @@ import '../../App.css';
 const useStyles = makeStyles((theme) => ({
   toolbar: {
     justifyContent: 'space-between',
-    padding: '10px 8% 10px 8%',
+    padding: '10px 5% 10px 5%',
     borderBottom: `1px solid ${theme.palette.primary[100]}`,
   },
   toolbarTitle: {
@@ -35,7 +35,7 @@ export default function Header(props) {
           <img src={logo} component={RouterLink} to='/' width="30px"/>
         </a>
 
-        <div id="menu">
+        <div id="menu" style={{margin:'0px 25px'}}>
           <Link component={RouterLink} to='/' className={classes.toolbarLink}>Home</Link>
           <Link component={RouterLink} to='/work' className={classes.toolbarLink}>Projects</Link>
           <Button variant="outlined" color="primary" href="#contact" className={classes.toolbarLink}>Contact</Button>
