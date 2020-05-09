@@ -14,6 +14,11 @@ const useStyles = makeStyles((theme) => ({
     padding: '10px 5% 10px 5%',
     borderBottom: `1px solid ${theme.palette.primary[100]}`,
   },
+  menu: {
+    marginLeft: theme.spacing(2),
+    display: 'flex',
+    alignItems:'center',
+  },
   toolbarTitle: {
     flex: 1,
   },
@@ -35,7 +40,7 @@ export default function Header(props) {
           <img src={logo} component={RouterLink} to='/' width="30px"/>
         </a>
 
-        <div id="menu" style={{margin:'0px 25px'}}>
+        <div id="menu" className={classes.menu}>
           <Link component={RouterLink} to='/' className={classes.toolbarLink}>Home</Link>
           <Link component={RouterLink} to='/work' className={classes.toolbarLink}>Projects</Link>
           <Button variant="outlined" color="primary" href="#contact" className={classes.toolbarLink}>Contact</Button>
