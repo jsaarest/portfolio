@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     height: 'auto',
     width: '100px',
-    marginLeft: theme.spacing(2)
+    margin: theme.spacing(2,0,2,2),
   }
 }));
 

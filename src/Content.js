@@ -111,11 +111,14 @@ export const workContent = {
       linkText: 'Check video demo'
     },
     {
-      id: 'No more manual typing',
+      id: 'Receipt and invoice scanning in seconds',
       projectName: "Elastic API - Scan your expenses in seconds",
       description:
         "No more manual typing of expenses. Elastic Smart Scanner will detect and extract needed information" +
-        "from receipts and invoices for you within seconds",
+        "from receipts and invoices for you within seconds. Developers can leverage the Elastic API within financial applications",
+      responsibilities: "Resposibilities within this project was to create the Elastic branding elements (Logo, Color palette) as well as "+
+        "creating the website with Wordpress. Current activities with Elastic project is to maintain the advertisement material for the social medias" +
+        "and keep on creating great content for marketing.",
 
       startDate: '7/2019',
       tags: ['Branding design, ', 'Web-design'],
@@ -126,7 +129,7 @@ export const workContent = {
     },
     {
       id: 'Drinkster',
-      projectName: "Tinder like app for cocktails",
+      projectName: "Drinkster - Find your dream cocktail",
       description:
 
         "You got lot of ingredients in your shelf and don't know what to make out of them? " +
