@@ -7,7 +7,6 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
@@ -78,6 +77,9 @@ export default function Work() {
               </Typography>
               <Typography variant="subtitle1" color="textSecondary" gutterBottom>
                 {item.description}
+              </Typography>
+              <Typography variant="subtitle1" color="textSecondary" gutterBottom>
+                {item.responsibilities}
               </Typography>
               <Link href={item.website}>{item.linkText}</Link>
             </Grid>

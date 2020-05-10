@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: `1px solid ${theme.palette.primary[100]}`,
   },
   menu: {
-    marginLeft: theme.spacing(2),
+    marginLeft: theme.spacing(4),
     display: 'flex',
     alignItems:'center',
   },
