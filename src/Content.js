@@ -11,6 +11,8 @@ import BankifyLogo from './images/logos/bankify_logo_Big_navy.png';
 import DrinksterLogo from './images/logos/drinkster_logo_square.png';
 import DrinksterImage from './images/drinkster.png';
 
+import BertschiLogo from './images/logos/bertschi-squarelogo.png';
+
 import GroupPayments from './images/group-payments.png';
 
 
@@ -59,6 +61,7 @@ export const historyContent = {
       startDate: '8/2019',
       endDate: 'Ongoing',
       tags: ['UX Design', 'React.js'],
+      avatar: BertschiLogo,
     },
     {
       id: 1,
@@ -68,6 +71,7 @@ export const historyContent = {
       startDate: '5/2018',
       endDate: 'Ongoing',
       tags: ['UX Design', 'Branding design'],
+      avatar: BankifyLogo,
     }
   ]
 };
