@@ -4,7 +4,7 @@ import './App.css';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from './theme.js';
 
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import Work from './Work';
@@ -17,7 +17,6 @@ import Footer from "./components/Footer/Footer";
 function App() {
 
   return (
-    <Router>
     <ThemeProvider theme={theme}>
       <Header/>
       <Switch>
@@ -26,7 +25,6 @@ function App() {
       </Switch>
       <Footer content={footerContent}/>
     </ThemeProvider>
-    </Router>
   );
 }
 
