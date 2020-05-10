@@ -2,7 +2,6 @@ import FaceIcon from "@material-ui/icons/Face";
 import BrushIcon from "@material-ui/icons/Brush";
 import CodeIcon from "@material-ui/icons/Code";
 import React from "react";
-import logo from './logo.svg'
 
 import ElasticImage from './images/image-elastic.jpg';
 import ElasticLogo from './images/logos/elastig-logo-square.png';
@@ -80,7 +79,7 @@ export const contactContent = {
 };
 
 export const footerContent = {
-  description: "If you reached this far, email me and I'm gonna buy you a beer 🍺",
+  description: "If you reached this far, email me and I'll buy you a beer 🍺",
 };
 
 // CONTENT FOR WORKS:
@@ -97,6 +96,9 @@ export const workContent = {
         "for it. With this solution, you can save together with your family, friends and even strangers. " +
         "After the saving is done, the group admin can use a virtual credit card to make the purchases that are needed for the project.",
 
+      responsibilities: "My responsibilities in this project included: Initiating the project, initial user testing, sketching out the prototype and testing the prototype in usability testing sessions."+
+        " After the initial UX efforts, I was part of handing out the concept to the front-end and back-end developer teams to roll out the product out as a API microservice" +
+        "In addition to the UX work, I was also part of marketing the product, where I produced and edited the following video.",
       startDate: '9/2018',
       tags: ['UX Design, ', 'Usability testing'],
       avatar: BankifyLogo,
@@ -123,12 +125,12 @@ export const workContent = {
       projectName: "Tinder like app for cocktails",
       description:
 
-        "Saving in a group is been done for ages, yet to this day there haven't been many digital solutions " +
-        "for it. With this solution, you can save together with your family, friends and even strangers. " +
-        "After the saving is done, the group admin can use a virtual credit card to make the purchases that are needed for the project.",
+        "You got lot of ingredients in your shelf and don't know what to make out of them? " +
+        "With Drinkster you can swipe through numerous amounts of different cocktails that you can make. Pressing the like button will show you the recipe and ingredients. " +
+        "I made this app to consume data from https://www.thecocktaildb.com/api.php API and made a Tinder like responsive front-end from Material UI to build it",
 
       startDate: '3/2020',
-      tags: ['React.js, ', 'UX Design'],
+      tags: ['React.js, ', 'API Integration, ', 'Material UI'],
       avatar: DrinksterLogo,
       image: DrinksterImage,
       website: 'http://drinkster.herokuapp.com/',
