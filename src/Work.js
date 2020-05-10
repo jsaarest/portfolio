@@ -12,7 +12,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
 
 import { workContent as content} from './Content';
-import blue from "@material-ui/core/colors/blue";
 
 
 
@@ -27,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   contentCard: {
     textAlign: 'left',
     borderRadius:'12px',
-    border: 'solid 1px' + `${blue[100]}`,
+    border: `1px solid ${theme.palette.primary[100]}`,
     marginTop: theme.spacing(2),
   },
   textArea: {
@@ -69,7 +68,7 @@ export default function Work() {
         <ExpansionPanelDetails>
           <Grid container spacing={3}>
             <Grid item lg={6} sm={12} md={6}>
-              <img className={classes.imageContainer} src={item.image}/>
+              <img className={classes.imageContainer} src={item.image} alt={item.id}/>
             </Grid>
             <Grid item lg={6} sm={12} md={6}>
               <Typography variant="h6" color="textPrimary" gutterBottom>

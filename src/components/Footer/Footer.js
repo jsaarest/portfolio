@@ -31,7 +31,7 @@ export default function Footer(props) {
 
   return (
       <Toolbar variant="dense" className={classes.toolbar}>
-            <Typography variant="p" color="textSecondary">{content.description}</Typography>
+            <Typography variant="body2" color="textSecondary">{content.description}</Typography>
           <div id="menu">
             <Link href="https://github.com/jsaarest" className={classes.toolbarLink}>
               <GitHubIcon color="primary" fontSize="small" style={{marginRight:'7px'}}/>
@@ -44,5 +44,5 @@ export default function Footer(props) {
 }
 
 Footer.propTypes = {
-  content: PropTypes.string,
+  content: PropTypes.object,
 };

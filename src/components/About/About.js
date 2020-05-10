@@ -2,17 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
-import CardMedia from '@material-ui/core/CardMedia';
-import Icon from '@material-ui/core/Icon';
-import blue from '@material-ui/core/colors/blue';
 import { Link as RouterLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -32,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'flex-end',
     textAlign: 'left',
     borderRadius:'12px',
-    border: 'solid 1px' + `${blue[100]}`,
+    border: `1px solid ${theme.palette.primary[100]}`,
     padding: theme.spacing(2),
 
   }

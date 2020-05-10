@@ -1,12 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import blue from "@material-ui/core/colors/blue";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import CardActions from "@material-ui/core/CardActions";
-import Button from "@material-ui/core/Button";
 import Chip from '@material-ui/core/Chip';
 
 
@@ -28,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'flex-end',
     textAlign: 'left',
     borderRadius:'12px',
-    border: 'solid 1px' + `${blue[100]}`,
+    border: `1px solid ${theme.palette.primary[100]}`,
 
   },
   cardContent: {
