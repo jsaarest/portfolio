@@ -12,6 +12,11 @@ import {Home} from './Home';
 import {footerContent} from "./Content";
 import Footer from "./components/Footer/Footer";
 
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
+
 
 
 function App() {
@@ -19,10 +24,21 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header/>
-      <Switch>
-        <Route path="/work" component={Work} />
-        <Route path="/" component={Home}/>
-      </Switch>
+      <Route render={({location}) => (
+        <TransitionGroup>
+          <CSSTransition
+            key={location.pathname}
+            timeout={450}
+            classNames="fade"
+          >
+            <Switch location={location}>
+              <Route path="/work" component={Work} />
+              <Route path="/" component={Home}/>
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      )}/>
+
       <Footer content={footerContent}/>
     </ThemeProvider>
   );
