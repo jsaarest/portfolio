@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eed097702f767b3763ed6de7c0798bae",
+    "revision": "6bc3c8740d1d1e2c7df1228e5c6b378f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "51787cdb7358e8079c9d",
+    "revision": "d86683d7b72f547b7471",
     "url": "/portfolio/static/css/main.f65a9837.chunk.css"
   },
   {
-    "revision": "55808793e67f86e415f8",
-    "url": "/portfolio/static/js/2.1e6c07ff.chunk.js"
+    "revision": "dc983d3c7905046db767",
+    "url": "/portfolio/static/js/2.06abc099.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/portfolio/static/js/2.1e6c07ff.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.06abc099.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51787cdb7358e8079c9d",
-    "url": "/portfolio/static/js/main.a9b99288.chunk.js"
+    "revision": "d86683d7b72f547b7471",
+    "url": "/portfolio/static/js/main.f787d99f.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2aa030977292e25e8782b3aa90d9211d",
     "url": "/portfolio/static/media/bankify_logo_Big_navy.2aa03097.png"
+  },
+  {
+    "revision": "f025303b950c9e56912a8e785888346c",
+    "url": "/portfolio/static/media/bertschi-squarelogo.f025303b.png"
   },
   {
     "revision": "6d5679da11aa05134c217aecfe63238a",

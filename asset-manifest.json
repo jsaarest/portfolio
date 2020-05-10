@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f65a9837.chunk.css",
-    "main.js": "/portfolio/static/js/main.a9b99288.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a9b99288.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f787d99f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f787d99f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
-    "static/js/2.1e6c07ff.chunk.js": "/portfolio/static/js/2.1e6c07ff.chunk.js",
-    "static/js/2.1e6c07ff.chunk.js.map": "/portfolio/static/js/2.1e6c07ff.chunk.js.map",
+    "static/js/2.06abc099.chunk.js": "/portfolio/static/js/2.06abc099.chunk.js",
+    "static/js/2.06abc099.chunk.js.map": "/portfolio/static/js/2.06abc099.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7a6230d2ea4234bc9765cd7bba4ba80e.js": "/portfolio/precache-manifest.7a6230d2ea4234bc9765cd7bba4ba80e.js",
+    "precache-manifest.3cb1f4674824c99001bb314456164517.js": "/portfolio/precache-manifest.3cb1f4674824c99001bb314456164517.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f65a9837.chunk.css.map": "/portfolio/static/css/main.f65a9837.chunk.css.map",
-    "static/js/2.1e6c07ff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1e6c07ff.chunk.js.LICENSE.txt",
+    "static/js/2.06abc099.chunk.js.LICENSE.txt": "/portfolio/static/js/2.06abc099.chunk.js.LICENSE.txt",
     "static/media/avatar-joona.png": "/portfolio/static/media/avatar-joona.8b592b4f.png",
     "static/media/bankify_logo_Big_navy.png": "/portfolio/static/media/bankify_logo_Big_navy.2aa03097.png",
+    "static/media/bertschi-squarelogo.png": "/portfolio/static/media/bertschi-squarelogo.f025303b.png",
     "static/media/drinkster.png": "/portfolio/static/media/drinkster.6d5679da.png",
     "static/media/drinkster_logo_square.png": "/portfolio/static/media/drinkster_logo_square.9ea5c207.png",
     "static/media/elastig-logo-square.png": "/portfolio/static/media/elastig-logo-square.5e364c09.png",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
-    "static/js/2.1e6c07ff.chunk.js",
+    "static/js/2.06abc099.chunk.js",
     "static/css/main.f65a9837.chunk.css",
-    "static/js/main.a9b99288.chunk.js"
+    "static/js/main.f787d99f.chunk.js"
   ]
 }
