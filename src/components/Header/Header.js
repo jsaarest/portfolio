@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <React.Fragment>
       <Toolbar variant="dense" className={classes.toolbar}>
-        <a href="/">
+        <a href="">
           <img src={logo} alt="Site logo" component={RouterLink} to='/' width="30px"/>
         </a>
 
