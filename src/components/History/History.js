@@ -14,8 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   cardContainer: {
     display:'flex',
-    flexDirection:'row',
-    margin: '50px 0px'
+    justifyContent:'center'
   },
   card: {
     height: 250,
@@ -42,10 +41,10 @@ export default function History(props) {
   return (
     <div className={classes.section}>
       <Typography variant="h2" style={{margin:'75px 0px'}}>{content.title}</Typography>
-        <Grid container spacing={3} direction="row" justify="center" alignItems="center">
+        <Grid container spacing={3} direction="row" justify="center">
           {content.items.map((item, id, tags) =>
-            <Grid item lg={12} sm={12} xs={12} justify="center" alignItems="center" style={{display:"flex"}}>
-              <Card elevation={0} key={item.id} className={classes.card}>
+            <Grid item xs={12} key={item.id} className={classes.cardContainer}>
+              <Card elevation={0} className={classes.card}>
                 <CardContent>
                   <Typography variant="overline" color="textSecondary">{item.startDate} - {item.endDate} </Typography>
                   <Typography variant="h5">{item.name}</Typography>

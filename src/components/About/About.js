@@ -46,8 +46,8 @@ export default function About(props) {
             justify="center"
             alignItems="center">
         {content.items.map((item, id) =>
-          <Grid item lg={4} sm={6} xs={12}>
-            <Card elevation={0} className={classes.card} key={item.id}>
+          <Grid item lg={4} sm={6} xs={12} key={item.id}>
+            <Card elevation={0} className={classes.card}>
               <CardContent>
                 {item.icon}
                 <Typography variant='h5'>{item.name}</Typography>
