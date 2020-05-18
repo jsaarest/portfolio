@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f65a9837.chunk.css",
-    "main.js": "/portfolio/static/js/main.1aa3583e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1aa3583e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d7952e20.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d7952e20.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
     "static/js/2.06abc099.chunk.js": "/portfolio/static/js/2.06abc099.chunk.js",
     "static/js/2.06abc099.chunk.js.map": "/portfolio/static/js/2.06abc099.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1021d379ab508e7478d1bf248e05ea84.js": "/portfolio/precache-manifest.1021d379ab508e7478d1bf248e05ea84.js",
+    "precache-manifest.d0889d19b30a98f87b06029711fe4749.js": "/portfolio/precache-manifest.d0889d19b30a98f87b06029711fe4749.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f65a9837.chunk.css.map": "/portfolio/static/css/main.f65a9837.chunk.css.map",
     "static/js/2.06abc099.chunk.js.LICENSE.txt": "/portfolio/static/js/2.06abc099.chunk.js.LICENSE.txt",
-    "static/media/avatar-joona.png": "/portfolio/static/media/avatar-joona.8b592b4f.png",
+    "static/media/avatar-joona.jpg": "/portfolio/static/media/avatar-joona.5a9a6df2.jpg",
     "static/media/bankify_logo_Big_navy.png": "/portfolio/static/media/bankify_logo_Big_navy.2aa03097.png",
     "static/media/bertschi-squarelogo.png": "/portfolio/static/media/bertschi-squarelogo.f025303b.png",
-    "static/media/drinkster.png": "/portfolio/static/media/drinkster.6d5679da.png",
+    "static/media/drinkster.jpg": "/portfolio/static/media/drinkster.f28bd5df.jpg",
     "static/media/drinkster_logo_square.png": "/portfolio/static/media/drinkster_logo_square.9ea5c207.png",
     "static/media/elastig-logo-square.png": "/portfolio/static/media/elastig-logo-square.5e364c09.png",
     "static/media/group-payments.png": "/portfolio/static/media/group-payments.03ca58aa.png",
-    "static/media/image-elastic.jpg": "/portfolio/static/media/image-elastic.92de2486.jpg",
+    "static/media/image-elastic.jpg": "/portfolio/static/media/image-elastic.597608dd.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.dd9b2c1c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
     "static/js/2.06abc099.chunk.js",
     "static/css/main.f65a9837.chunk.css",
-    "static/js/main.1aa3583e.chunk.js"
+    "static/js/main.d7952e20.chunk.js"
   ]
 }
