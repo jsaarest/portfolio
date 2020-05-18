@@ -9,7 +9,7 @@ import ElasticLogo from './images/logos/elastig-logo-square.png';
 import BankifyLogo from './images/logos/bankify_logo_Big_navy.png';
 
 import DrinksterLogo from './images/logos/drinkster_logo_square.png';
-import DrinksterImage from './images/drinkster.png';
+import DrinksterImage from './images/drinkster.jpg';
 
 import BertschiLogo from './images/logos/bertschi-squarelogo.png';
 

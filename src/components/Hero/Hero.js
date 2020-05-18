@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import Avatar from '@material-ui/core/Avatar';
-import image from './avatar-joona.png';
+import image from './avatar-joona.jpg';
 
 const useStyles = makeStyles((theme) => ({
   heroImageContainer: {
